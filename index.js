@@ -1,1 +1,3 @@
-console.log('next-json-middleware');
+export default () => {
+  console.log('next-json-middleware');
+}
