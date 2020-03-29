@@ -12,6 +12,7 @@
   },
   "author": "Nikolai Kiselev",
   "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bugs": {
     "url": "https://github.com/nikkiselev/next-json-middleware/issues"
   },
