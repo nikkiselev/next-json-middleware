@@ -1,5 +1,5 @@
 {
-  "name": "next-json-middleware",
+  "name": "@nikkiselev/next-json-middleware",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
