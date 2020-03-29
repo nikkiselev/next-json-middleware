@@ -1,12 +1,15 @@
 {
   "name": "@nikkiselev/next-json-middleware",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/json.js",
   "scripts": {
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist"
+  ], 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nikkiselev/next-json-middleware.git"
