@@ -2,6 +2,11 @@
 
 Adds  `application/json` HTTP `Content-Type` header to an API response.
 
+Install from command line:
+```
+npm install @nikkiselev/next-json-middleware@0.1.0
+```
+Example
 ```
 import json from '@nikkiselev/next-json-middleware';
 
