@@ -1,15 +1,17 @@
 {
   "name": "@nikkiselev/next-json-middleware",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/json.js",
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "dist"
-  ], 
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nikkiselev/next-json-middleware.git"
@@ -26,6 +28,14 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0"
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3",
+    "next": "^9.3.2"
   }
 }
